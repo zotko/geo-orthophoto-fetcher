@@ -22,6 +22,14 @@ This filename corresponds to:
 
 These coordinates are in the EPSG:25832 CRS (Coordinate Reference System).
 
+### Image Structure
+
+The orthophoto files are expected to have 4 channels:
+1. Red
+2. Green
+3. Blue
+4. Additional channel (e.g., near-infrared)
+
 ## Requirements
 
 - Python 3.6+
